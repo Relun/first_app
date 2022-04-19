@@ -1,11 +1,15 @@
 development:
   adapter: postgresql
+  username: clau
+  password: 123joz
   database: my_database_development
   pool: 5
   timeout: 5000
 
 test:
   adapter: postgresql
+  username: clau
+  password: 123joz
   database: my_database_test
   pool: 5
   timeout: 5000
